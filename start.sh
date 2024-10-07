@@ -1,2 +1,2 @@
 #!/bin/bash
-gunicorn depression_app:app
+python depression_app.py
