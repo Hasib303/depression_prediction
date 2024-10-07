@@ -8,7 +8,7 @@ import os
 app = Flask(__name__)
 
 # Load the model and tokenizer
-model = load_model('your_model.h5')
+model = load_model('depression_model.h5')
 with open('tokenizer.pkl', 'rb') as tokenizer_file:
     tokenizer = pickle.load(tokenizer_file)
 
